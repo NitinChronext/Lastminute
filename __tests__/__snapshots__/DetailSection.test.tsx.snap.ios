@@ -1,0 +1,109 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<App /> has 1 child 1`] = `
+<ContextProvider
+  value={
+    Object {
+      "colors": Object {
+        "background": Object {
+          "brand": "#ffffff",
+          "light": "#fcfcfc",
+          "off": "#ffffff",
+        },
+        "border": Object {
+          "brand": "#3B3B3B",
+          "light": "#E7E7E7",
+          "medium": "#b9b9b9",
+        },
+        "font": Object {
+          "brand": "#3B3B3B",
+          "dark": "#000000",
+          "light": "#E7E7E7",
+          "medium": "#b9b9b9",
+          "selected": "#00A300",
+        },
+        "tile": Object {
+          "brand": "#3B3B3B",
+          "label": "#8d8d8d",
+        },
+        "tint": "#2f95dc",
+      },
+      "fonts": Object {
+        "size": Object {
+          "large": "16px",
+          "medium": "14px",
+          "small": "12px",
+          "xlarge": "18px",
+          "xxlarge": "20px",
+        },
+        "weight": Object {
+          "bold": "500",
+          "light": "300",
+          "medium": "400",
+          "semi_light": "350",
+          "xbold": "700",
+        },
+      },
+    }
+  }
+>
+  <DetailSection
+    label="label"
+    value="value"
+  />
+</ContextProvider>
+`;
+
+exports[`<DetailSection /> has 1 child 1`] = `
+<ContextProvider
+  value={
+    Object {
+      "colors": Object {
+        "background": Object {
+          "brand": "#ffffff",
+          "light": "#fcfcfc",
+          "off": "#ffffff",
+        },
+        "border": Object {
+          "brand": "#3B3B3B",
+          "light": "#E7E7E7",
+          "medium": "#b9b9b9",
+        },
+        "font": Object {
+          "brand": "#3B3B3B",
+          "dark": "#000000",
+          "light": "#E7E7E7",
+          "medium": "#b9b9b9",
+          "selected": "#00A300",
+        },
+        "tile": Object {
+          "brand": "#3B3B3B",
+          "label": "#8d8d8d",
+        },
+        "tint": "#2f95dc",
+      },
+      "fonts": Object {
+        "size": Object {
+          "large": "16px",
+          "medium": "14px",
+          "small": "12px",
+          "xlarge": "18px",
+          "xxlarge": "20px",
+        },
+        "weight": Object {
+          "bold": "500",
+          "light": "300",
+          "medium": "400",
+          "semi_light": "350",
+          "xbold": "700",
+        },
+      },
+    }
+  }
+>
+  <DetailSection
+    label="label"
+    value="value"
+  />
+</ContextProvider>
+`;

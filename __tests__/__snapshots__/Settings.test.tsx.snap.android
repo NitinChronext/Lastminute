@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<Styled(View)>
+  <Memo(Picker)
+    items={
+      Array [
+        Object {
+          "label": "English",
+          "value": "en",
+        },
+        Object {
+          "label": "German",
+          "value": "de",
+        },
+      ]
+    }
+    mode="BADGE"
+    multiple={false}
+    onChangeValue={[Function]}
+    open={false}
+    setItems={[Function]}
+    setOpen={[Function]}
+    setValue={[Function]}
+    theme="LIGHT"
+    value="German"
+  />
+</Styled(View)>
+`;
